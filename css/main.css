@@ -226,4 +226,8 @@ footer {
 		width: 100%;
 		float: none;
 	}
+	#car {
+		width: 50px;
+		height: 90px;
+	}
 }
