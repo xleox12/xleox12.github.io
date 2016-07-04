@@ -226,6 +226,15 @@ footer {
 		width: 100%;
 		float: none;
 	}
+	#descbox1 {
+		margin-left: 0;
+	}
+	#descbox2 {
+		margin-right: 0;
+	}
+	#descbox3 {
+		margin-left: 0;
+	}
 	#car {
 		width: 50px;
 		height: 90px;
@@ -247,7 +256,7 @@ footer {
 	.accident {
 		float: right;
 		margin-top: 150px;
-		height: 120px;
+		height: 130px;
 		background-size: cover;
 	}
 }
