@@ -227,6 +227,11 @@ footer {
 		height: 599px;
 	}
 }
+@media screen and (max-width: 1250px) {
+	#scroll {
+		left: 17%;
+	}
+}
 @media screen and (max-width: 720px) {
 	header h3 {
 		background-image: url('../img/mobile.jpg');
