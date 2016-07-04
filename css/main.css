@@ -30,8 +30,8 @@ p {
 	margin-bottom: 15px;
 }
 ul {
-	font-size: 16px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 32px;
 	list-style-position: inside;
 }
 #hero {
@@ -43,7 +43,7 @@ ul {
 }
 .herob {
 	background-color: #fff;
-	height: calc(100% - 100px);
+	height: calc(100% - 120px);
 }
 #scroll {
 	position: absolute;
@@ -58,8 +58,8 @@ ul {
 	display: block;
 	background: url('../img/car.png');
 	background-attachment: cover;
-	width: 114px;
-	height: 205px;
+	width: 100px;
+	height: 179px;
 	position: fixed;
 	margin: 0 auto;
 	left: 0;
@@ -78,7 +78,7 @@ ul {
 .descbox {
 	background-color: #00a1e4;
 	border-radius: 30px;
-	padding: 20px;
+	padding: 25px;
 	margin: 20px;
 	width: 40%;
 	display: block;
