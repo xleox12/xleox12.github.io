@@ -239,12 +239,12 @@ footer {
 	}
 	.contact {
 		width: 100%;
-		clear: both;
 		float: none;
 		height: 200px;
 		display: block;
 	}
 	.accident {
+		float: none;
 		margin-top: 150px;
 		height: 120px;
 	}
