@@ -229,5 +229,6 @@ footer {
 	#car {
 		width: 50px;
 		height: 90px;
+		background-attachment: cover;
 	}
 }
