@@ -230,6 +230,9 @@ footer {
 		margin: 0;
 		margin-bottom: 70px;
 	}
+	.descbox h3 {
+		line-height: 2em;
+	}
 	#car {
 		width: 50px;
 		height: 90px;
@@ -251,7 +254,8 @@ footer {
 	.accident {
 		float: right;
 		margin-top: 150px;
-		height: 150px;
+		width: 120px;
+		height: 71px;
 		background-size: cover;
 	}
 }
