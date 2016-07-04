@@ -57,7 +57,7 @@ ul {
 #car {
 	display: block;
 	background: url('../img/car.png');
-	background-attachment: cover;
+	background-size: cover;
 	width: 100px;
 	height: 179px;
 	position: fixed;
@@ -229,7 +229,7 @@ footer {
 	#car {
 		width: 50px;
 		height: 90px;
-		background-attachment: cover;
+		background-size: cover;
 	}
 	#hero {
 		min-height: 400px;
