@@ -87,6 +87,7 @@ ul {
 	width: 100%;
 	text-align: center;
 	font-size: 2em;
+	line-height: 2em;
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
@@ -232,9 +233,6 @@ footer {
 		margin-bottom: 70px;
 		margin-left: 1%;
 		margin-right: 1%;
-	}
-	.descbox h3 {
-		line-height: 2em;
 	}
 	#car {
 		width: 50px;
