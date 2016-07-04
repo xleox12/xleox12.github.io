@@ -237,6 +237,11 @@ footer {
 	.lane {
 		display: none;
 	}
+	.contact {
+		width: 100%;
+		clear: both;
+		float: none;
+	}
 	.accident {
 		float: right;
 		width: 40%;
