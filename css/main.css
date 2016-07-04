@@ -259,4 +259,7 @@ footer {
 		height: 71px;
 		background-size: cover;
 	}
+	#scroll {
+		font-size: 1em;
+	}
 }
