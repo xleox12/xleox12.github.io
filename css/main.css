@@ -133,6 +133,13 @@ ul {
 	font-size: 2em;
 	display: block;
 }
+.karetka {
+	width: 100%; 
+	height: auto; 
+	border: 1px solid #ddd; 
+	border-radius: 4px;
+	padding: 5px;
+}
 .accident {
 	float: right;
 	width: 40%;
