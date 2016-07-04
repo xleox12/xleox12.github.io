@@ -139,6 +139,8 @@ ul {
 	border: 1px solid #ddd; 
 	border-radius: 4px;
 	padding: 5px;
+	background-color: #fff;
+	margin: 0;
 }
 .accident {
 	float: right;
