@@ -265,6 +265,7 @@ footer {
 		background-size: cover;
 	}
 	#scroll {
-		font-size: 12px;
+		font-size: 16px;
+		left: 5%;
 	}
 }
