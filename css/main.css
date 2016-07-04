@@ -237,4 +237,10 @@ footer {
 	.lane {
 		display: none;
 	}
+	.accident {
+		float: right;
+		width: 40%;
+		margin-top: 150px;
+		height: 120px;
+	}
 }
