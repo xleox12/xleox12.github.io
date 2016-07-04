@@ -169,6 +169,7 @@ footer {
 		max-width: 800px;
 		height: auto;
 		margin: 0 auto;
+		z-index: 9;
 	}
 }
 @media screen and (min-width: 1400px) {
@@ -223,7 +224,7 @@ footer {
 		width: 100%;
 	}
 	.descbox {
-		width: 100%;
+		width: 98%;
 		float: none;
 	}
 	#descbox1, #descbox2, #descbox3 {
