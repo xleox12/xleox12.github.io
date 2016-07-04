@@ -239,9 +239,10 @@ footer {
 	}
 	.contact {
 		width: 100%;
-		float: none;
+		float: left;
 		height: 200px;
 		display: block;
+		text-align: center;
 	}
 	.accident {
 		float: none;
