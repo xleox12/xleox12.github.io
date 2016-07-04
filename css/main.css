@@ -229,9 +229,11 @@ footer {
 	#descbox1, #descbox2, #descbox3 {
 		margin: 0;
 		margin-bottom: 70px;
+		margin-left: 1%;
+		margin-right: 1%;
 	}
 	.descbox h3 {
-		line-height: 2em;
+		line-height: 3em;
 	}
 	#car {
 		width: 50px;
