@@ -231,4 +231,10 @@ footer {
 		height: 90px;
 		background-attachment: cover;
 	}
+	#hero {
+		min-height: 400px;
+	}
+	.lane {
+		display: none;
+	}
 }
