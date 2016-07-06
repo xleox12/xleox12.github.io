@@ -27,6 +27,22 @@
 	<link rel="favicon" href="favicon-32x32.png">
 	</head>
 <body>
+<?php
+$from=$_POST['name'];
+if($from) {
+	$email = $_POST['email'];
+	$wiadomosc=$_POST['text'];
+	if (mail("robmed@vp.pl", $from." - z Robmed.eu", $wiadomosc."\n".$email))
+	{
+		echo "<script>alert("Mail został wysłany")</script>";
+	}
+	else
+	{
+		echo "<script>alert("Mail  NIE został wysłany")</script>";
+	}
+}
+
+?>
 		<div id="hero">
 		<div class="herob">
 		<nav class="navbar">
