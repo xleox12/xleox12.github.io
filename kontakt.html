@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Robmed</title>
 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/kontakt.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -25,13 +26,12 @@
 	<meta name="theme-color" content="#ffffff">
 	<link rel="favicon" href="favicon-32x32.png">
 	</head>
-
-	<body>
+<body>
 		<div id="hero">
 		<div class="herob">
 		<nav class="navbar">
-			<a href="galeria/index.php" class="left">Galeria</a>
-			<a href="kontakt.html" class="right">Kontakt</a>
+			<a href="index.html" class="left">Główna</a>
+			<a href="galeria/index.php" class="right">Galeria</a>
 		</nav>
 			<header>
 			<h3>Robmed
@@ -39,50 +39,37 @@
 			ratownik medyczny</h3>
 			
 			</header>
-			<div id="car">
-			</div>
-			<span id="scroll">Przewiń w dół</span>
-			</div>
+			      <div class="contactcontainer">
+          <div class="form">
+                <h2 class="contactus">Kontakt</h2>
+                    <div class="contacttext">Masz jakieś pytania?<br>Chcesz skorzystać z naszych usług?<br>Napisz!</div>                
+              <form class="contactform">
+                    <label for="name">Imię:</label>
+                  <input name="name" type="text" id="name" class="contacti" required>
+                  <label for="email">Email:</label>
+                  <input name="email" type="email" id="email" class="contacti" required>
+                  <label for="text">Treść:</label>
+                  <textarea name="text" class="contacti" required></textarea>
+                  
+                  <button type="submit" class="submitbutton">Wyślij</button>
+              </form>
+          </div>
+          <div class="about">
+              <address>
+                  <span class="addresstitle">EMAIL</span>
+                    robmed@vp.pl
+                  <span class="addresstitle">TELEFON</span>
+                    +48 517 461 769
+                  <span class="addresstitle">O NAS</span>
+                    Robert Jędrzejewski<br>
+                    Ratownik Medyczny
+              </address>
+          </div>
+      </div>
 		</div>
-
-		<div class="desc">
-			<div class="descbox" id="descbox1">
-			<h3>Witamy</h3>
-			<p>Robmed zajmuje się między innymi:
-				<ul>
-					<li>Ratownictwem medycznym</li>
-					<li>Zabezpieczeniem medycznym imprez</li>
-					<li>Szkoleniami z ratownictwa i pierwszej pomocy</li>
-				</ul>
-			</p></div>
-			<div class="descbox" id="descbox2">
-			<h3>Zabezpieczenia medyczne imprez</h3>
-			<p>Nasza firma zabezpieczy każdą imprezę - mniejszą lub większą. Współpracujemy z innymi firmami jeśli potrzeba większej ilości ratowników.</p>
-			<p>
-			Przykładowe imprezy do zabezpieczenia:
-				<ul>
-					<li>Koncerty</li>
-					<li>Festyny</li>
-					<li>Zawody sportowe</li>
-				</ul>
-			</p>
-			</div>
-			<div class="descbox" id="descbox3">
-			<h3>Nasz samochód</h3><img class="karetka" src="img/karetka.jpg"></div>
-		</div>
-
-		<div class="contact">
-			<h3>Kontakt</h3>
-			<span class="name">Robert Jędrzejewski</span>
-			<span class="telephone">tel: +48 517 461 769</span>
-		</div>
-		<div class="accident">
-		</div>
-
 		<footer>
 			Copyright © 2016 - Robmed.eu
 			<span class="fb"></span>
 		</footer>
-		<div class="lane"></div>
 	</body>
 </html>
